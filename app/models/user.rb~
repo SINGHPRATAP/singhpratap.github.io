@@ -16,4 +16,11 @@ class User < ActiveRecord::Base
   mount_uploader :cover, AvatarUploader
 
   validates_presence_of :name
+
+  self.per_page = 10
+
+ extend FriendlyId
+friendly_id :name, use: [:slugged, :finders]
+
+  
 end

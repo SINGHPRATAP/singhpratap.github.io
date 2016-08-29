@@ -10,9 +10,9 @@
 }
 
 #intro {
-  margin-top: 0px;
-  margin-left: 700px;
-  padding: 1px 1px;
+  margin-top: 10px;
+  margin-left: 650px;
+  padding: 20px;
   text-align: center;
   h1 {
     color: $navbar-color;
